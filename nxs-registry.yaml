@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: nxs-registry
+  namespace: test2
+type: kubernetes.io/dockerconfigjson
+data:
+  .dockerconfigjson: ewogICJhdXRocyI6IHsKICAgICJueHMuaG9tZS5raW5nYS5jbG91ZDo5ODc2IjogewogICAgICAidXNlcm5hbWUiOiAiYWRtaW4iLAogICAgICAicGFzc3dvcmQiOiAiSmtockNzaGphN1lNOUJLUEQ3aExNbkxiIiwKICAgICAgImVtYWlsIjogImJveEBva29uZHJhdG92LnBsIiwKICAgICAgImF1dGgiOiAiWVdSdGFXNDZTbXRvY2tOemFHcGhOMWxOT1VKTFVFUTNhRXhOYmt4aSIKICAgIH0KICB9Cn0=
