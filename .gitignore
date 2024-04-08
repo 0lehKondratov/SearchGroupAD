@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 tls/
+test2-tls-secret.yaml
+nxs-registry.yaml
 
 # Distribution / packaging
 .Python
