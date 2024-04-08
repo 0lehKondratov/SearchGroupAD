@@ -13,5 +13,3 @@ openssl pkcs12 -export -out nxs.p12 -passout 'pass:$NEXUS_PASSWORD' -inkey nxs.k
 keytool -importkeystore  -srckeystore nxs.p12 -srcstorepass $NEXUS_PASSWORD -srcstoretype PKCS12 -srcalias nxs  -deststoretype JKS -destkeystore nxs.jks  -deststorepass $NEXUS_PASSWORD -destalias nxs
 
 keytool -export -alias nxs -keystore nxs.jks -rfc -file nxs.cert
-
-git push -u SearchGroupAD 
